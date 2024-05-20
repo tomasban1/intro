@@ -59,3 +59,4 @@ console.log(gorila[1][1][0]);
 console.log(gorila[1][1]);
 console.log(gorila[1][2]);
 console.log(gorila[1][3]);
+
