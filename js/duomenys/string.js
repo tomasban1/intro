@@ -2,7 +2,7 @@
 
 
 
-const name = 'Jonas';
+/*const name = 'Jonas';
 console.log(name)
 
 const name2 = "Maryte"
@@ -49,7 +49,13 @@ money = 10
 console.log(sask, money);
 console.log(plius, 90);
 console.log(sask, money + 90);
+*/
 
+const a = 7;
+const b = 5;
+const c = a + b;
+const ats = `${a} + ${b} = ${c}`;//iterpia i string kintamojo reiksme
+console.log(ats);
 
 
 
