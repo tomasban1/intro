@@ -71,4 +71,22 @@ const liekana1 = pirmas % antras;
 const liekana2 = antras % pirmas;
 console.log(liekana1);
 console.log(liekana2);
+console.clear();
 
+let makaronai = 2
+makaronai = makaronai + 2;
+console.log(makaronai);
+
+makaronai = 2;
+console.log(makaronai);
+
+makaronai += 2;
+makaronai++;
+console.clear();
+
+let g = 6;
+console.log(g); 
+//pirmiau spausdina, po to didina
+console.log(g++);
+//Pirmiau didina, po to spausdina
+console.log(++g);
