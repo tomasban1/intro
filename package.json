@@ -5,6 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "math":"node --watch ./js/metodai/math.js",
+    "ternary":"node --watch ./js/palyginimas/ternary.js",
+    "arrow":"node --watch ./js/funkcijos/arrow.js",
     "matrix":"node --watch ./js/nd/matrix.js",
     "clock":"node --watch ./js/nd/clock.js",
     "stringg":"node --watch ./js/metodai/stringg.js",
