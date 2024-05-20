@@ -133,7 +133,7 @@ console.log(dalys);
 
 console.log('------------');
 
-console.log('Labas rytas, Lietuva'.toLowerCase());//visi simboliai paverciami didziosiomis raidemis
+console.log('Labas rytas, Lietuva'.toLowerCase());//visi simboliai paverciami mazosiomis raidemis
 console.log('--------------');
 
 console.log('fsg'.toUpperCase());//visi simboliai i didziasias raides
