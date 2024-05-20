@@ -109,12 +109,15 @@ function words(w1, w2, w3){
 
         surname("Baniau")
 
-        function howMany(text){
 
-            return console.log(text.lenght);
 
-        }
-        howMany("Labas");
+function doSomething(params) {
+    // 1) Input (parametru) validavimas
+    // 2) Vykdome logika
+    // 3) Gauto rezultato validavimas
+    // 4) Graziname rezultata
+}
+        
 
         
 
