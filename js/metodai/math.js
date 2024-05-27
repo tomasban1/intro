@@ -67,5 +67,14 @@ console.log(Math.pow(2, 3));//Pakelia pirma skaiciu antrojo skaiciaus laipsniu
 console.log(Math.random());//Grazina sugeneruota random skaiciu nuo 0 iki 1(imtinai 0, neimtinai 1)
 console.log(Math.random());
 console.log(Math.random());
+console.log('--------');
 
+console.log(Math.sign(5));//grazina 1 arba -1 is betkokio skaiciaus, apart 0
+console.log(Math.sign(-5));
+console.log(Math.sign(0));
+console.log('----------');
+
+console.log(Math.sqrt(4));//istraukia kvadratine sakni
+console.log(Math.sqrt(9));
+console.log(Math.sqrt(81));
 
