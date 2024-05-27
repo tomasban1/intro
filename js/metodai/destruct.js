@@ -60,5 +60,21 @@ console.log(sentance1);
 //const count2 = f2.count
 //const sentance2 = `Valgysi ${title2}, kiekis: ${count2}`;
 //console.log(sentance2);
+console.clear();
 
+function drinks(...list) {// jei pridedi (...) pries kintamaji, istraukia visas reiksmes 
+    return `Gerimu kiekis: ${list.length}.`
+}
 
+console.log(drinks('a', 'b', 'c'));
+
+function iLike(name, ...list) {
+    return `${name} megsta ${list.length} spalvas`
+
+}
+console.log(iLike('Jonas', 'red', 'blue'));
+console.log(iLike('Maryte', 'pink', 'black', 'grey'));
+
+const marks = [10, 2, 6, 8, 5]
+console.log(Math.max(...marks));
+console.log(Math.min(...marks));

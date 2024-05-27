@@ -52,6 +52,10 @@ function prisistatymas(stud) {
 for (i = 0; i < students.length; i++) {
     console.log(prisistatymas(students[i]));
 }
+console.clear();
 
+function giveMe(data, key) {
+    return null
+}
 
 
